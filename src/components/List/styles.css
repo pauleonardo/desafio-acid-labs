@@ -1,0 +1,7 @@
+.list-items-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 446px;
+    max-width: 446px;
+}
