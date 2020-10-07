@@ -3,10 +3,6 @@
     padding: 0 0 8px 0;
 }
 
-.container-checkbox-item--completed {
-    text-decoration: line-through;
-}
-
 .container-item hr {
     border: 1px solid #A8DADC;
 }
@@ -26,6 +22,11 @@
     max-width: 400px;
     min-width: 400px;
 }
+
+.checkbox-item--completed {
+    text-decoration: line-through;
+}
+
 
 .checkbox-item input {
     position: absolute;
@@ -94,7 +95,7 @@
     color: #A8DADC;
 }
 
-.action.action--edit:hover{
+.action.action--delete:hover {
     color: #E63946;
 }
 
